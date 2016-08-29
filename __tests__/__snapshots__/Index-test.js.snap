@@ -1,0 +1,4 @@
+exports[`Index has correct default options 1`] = `
+<div
+  onClick={[Function _onClickTest]} />
+`;

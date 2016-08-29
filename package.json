@@ -1,0 +1,36 @@
+{
+  "name": "jest-coverage-test",
+  "version": "0.1.0",
+  "main": "src/js/index.js",
+  "description": "Testing jest coverage reports.",
+  "authors": [
+    "Alan Souza"
+  ],
+  "homepage": "http://grommet.io",
+  "bugs": "https://github.com/alansouzati/jest-coverage-test/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alansouzati/jest-coverage-test"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^14.1.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "jest": "14.3.0-alpha.d13c163e",
+    "react-test-renderer": "^15.3.0"
+  },
+  "jest": {
+    "automock": false,
+    "collectCoverageFrom": [
+      "src/js/**/*.js"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ]
+  }
+}
